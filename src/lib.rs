@@ -1,6 +1,6 @@
 mod parse_duration;
 mod parse_rss;
-use std::{mem, ops::Deref, os::unix::process::parent_id, sync::Arc, thread::JoinHandle};
+use std::{mem, ops::Deref, sync::Arc, thread::JoinHandle};
 
 use futures::lock::Mutex;
 use parse_rss::PodcastFromRss;
