@@ -670,6 +670,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "parallel-podcast-parser"
+version = "0.1.0"
+dependencies = [
+ "chrono",
+ "dateparser",
+ "futures",
+ "openssl",
+ "pyo3",
+ "pyo3-asyncio",
+ "reqwest",
+ "roxmltree",
+ "tokio",
+]
+
+[[package]]
 name = "parking_lot"
 version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -723,21 +738,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "18fb31db3f9bddb2ea821cde30a9f70117e3f119938b5ee630b7403aa6e2ead9"
 dependencies = [
  "unicode-ident",
-]
-
-[[package]]
-name = "py-podcast-parser"
-version = "0.1.0"
-dependencies = [
- "chrono",
- "dateparser",
- "futures",
- "openssl",
- "pyo3",
- "pyo3-asyncio",
- "reqwest",
- "roxmltree",
- "tokio",
 ]
 
 [[package]]
