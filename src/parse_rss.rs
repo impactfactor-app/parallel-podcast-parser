@@ -2,10 +2,7 @@ use std::time::Duration;
 
 use chrono::{DateTime, NaiveTime, Utc};
 use dateparser::parse_with;
-use pyo3::{
-    proc_macro::{pyclass, pymethods},
-    IntoPy, Py, PyAny, Python,
-};
+use pyo3::{pyclass, pymethods, IntoPy, Py, PyAny, Python};
 use reqwest;
 use roxmltree::Document;
 
